@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-image: url("https://st.depositphotos.com/3296851/4633/i/450/depositphotos_46332335-stock-photo-blue-hexagonal-cell-background.jpg");
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding-top: 12vw;
+}
+.ready {
+    text-decoration: line-through;
+}
+.main{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 3vw;
+}
+#taskInput{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+#addTaskBtn{
+    padding: 9px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background: rgb(235, 110, 8);
+}
+#addTaskBtn:hover{
+    background: rgb(189, 38, 0);
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+#taskList{
+    padding-top: 2vw;
+    font-size: 4vh;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+}
